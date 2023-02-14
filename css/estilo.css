@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    margin: 50px;
+}
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../assets/font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+h1, h2, h3{
+    font-family: PlayfairDisplay;
+    color: #a550d6;
+    text-align: center;
+    padding: 20px;
+}
+section{
+    font-family: PlayfairDisplay;
+    text-align: center;
+}
+#arriba{
+    text-align: center;
+}
+.logo{
+    width: 175px;
+    border-radius: 50%;
+}
+nav{
+    text-align: center;
+}
+.menu{
+    list-style-type: none ;
+    background-color: rgba(188, 10, 194, 0.452);
+    padding: 0;
+    width: 90%;
+    margin: 20px auto;
+}
+.item{
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    text-align: center;
+}
+.submenu{
+    position: absolute;
+    display: none;
+}
+.sub_i{
+    display: block;
+    font-size: 0.8rem;
+    padding: auto;
+}
+.menu .item a{
+    color: #4a167a;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 20px;
+}
+.menu .item a:hover{
+    color: rgb(99, 0, 156);
+}
+.menu .item:hover .submenu{
+    display: block;
+    color: aliceblue;
+}
+.menu .item:hover a{
+    background-color: #4a167a;
+    color: aliceblue;
+}
+.imgs{
+    width: 175px;
+    height: 175px;
+    margin: 5%;
+}
+footer{
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(188, 10, 194, 0.452);
+    padding: 0;
+    width: 90%;
+    margin: 50px;
+    height: 50px;
+}
