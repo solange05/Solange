@@ -11,7 +11,7 @@ body{
     padding: 30px;
     margin: 50px;
 }
-@font-face {
+@font-face{
     font-family: PlayfairDisplay;
     src: url(../assets/font/PlayfairDisplay-VariableFont_wght.ttf);
 }
@@ -36,7 +36,7 @@ nav{
     text-align: center;
 }
 .menu{
-    list-style-type: none ;
+    list-style-type: none;
     background-color: rgba(188, 10, 194, 0.452);
     padding: 0;
     width: 90%;
@@ -53,6 +53,9 @@ nav{
     display: none;
 }
 .sub_i{
+    position: relative;
+    top: auto;
+    right: 32px;
     display: block;
     font-size: 0.8rem;
     padding: auto;
@@ -79,13 +82,34 @@ nav{
     width: 175px;
     height: 175px;
     margin: 5%;
+    transition: height 0.5s, width 0.7s;
 }
-footer{
+.imgs:hover{
+    display: inline;
+    position: relative;
+    width: 180x;
+    height: 180px;
+    margin: 5%;
+}
+.imgstyp{
+    background-image: linear-gradient(to right, rgba(255, 192, 203, 0.747), rgba(114, 170, 223, 0.377));
+    text-align: center;
+}
+.imgtamaño{
+    width: 190px;
+    height: 200px;
+    margin: 15%; 
+}
+.divimg{
+    background-image: linear-gradient(to left, rgba(146, 210, 235, 0.219), rgba(224, 166, 229, 0.295));
+    text-align: center;
+}
+footer {
     list-style-type: none;
     text-align: center;
     background-color: rgba(188, 10, 194, 0.452);
     padding: 0;
     width: 90%;
-    margin: 50px;
-    height: 50px;
+    margin: 20px auto;
+    height: 50%;
 }

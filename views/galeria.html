@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="shortcut icon" href="../assets/img/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="stylesheet" href="../assets/font/PlayfairDisplay-VariableFont_wght.ttf">
 </head>
-<body>
+<body class="container fluid text-center">
     <header id="arriba">
         <div>
-            <img class="logo" src="../assets/img/logo.jpg" alt="Logo sitio">
+            <a href="../index.html"><img class="logo" src="../assets/img/logo.jpg" alt="Logo sitio"></a>
         </div>
         <nav>
             <ul class="menu">
@@ -40,15 +41,20 @@
             <h2>Título sobre algo 2</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et necessitatibus quibusdam expedita rerum distinctio iure ea modi soluta error, iusto voluptatum, provident excepturi eaque neque quas illum, aliquid a placeat molestias commodi itaque. Minima sint incidunt saepe ex dolores dolor, voluptas iste omnis consequatur autem repellat ea tempore excepturi nihil libero quod quidem fugiat soluta voluptatem esse id rerum impedit minus! Magnam explicabo temporibus nemo officia, illum provident doloribus enim quisquam, mollitia ratione iure eos consequatur nobis numquam aliquid quam architecto repellendus perferendis doloremque nihil aperiam. Suscipit molestiae beatae ut molestias qui cumque, nihil harum ducimus quam at voluptate. Quis non, culpa libero natus corporis deserunt. Saepe alias adipisci velit totam quis molestias aut hic placeat quasi. Velit sint fuga aliquam tenetur nam, eos possimus? Neque incidunt praesentium, soluta provident, numquam cupiditate accusantium nesciunt, expedita velit perferendis nemo et rerum quae ea? Dolorem perferendis saepe eum voluptate corporis quaerat, quos provident velit sint nostrum atque rem, non distinctio harum mollitia fugit deleniti deserunt rerum officia pariatur libero animi. Qui sapiente et dolores eligendi assumenda minima quam facilis a, id nam ipsa, ea beatae magnam laudantium veniam quis accusamus, dolore aliquid molestiae autem? Doloremque nihil sunt reprehenderit autem similique saepe esse.</p>
         </section>
-        <br><br>
-        <section>
-            <img class="imgs" src="../assets/img/manicura1.jpg" alt="Img1">
-            <img class="imgs" src="../assets/img/manicura2.jpg" alt="Img2">
-        </section>
+        <br>
+        <div class="row">
+            <div class="col-xl-6 col-md-6 col-cm-12 text-center">
+                <img class="imgs" src="../assets/img/manicura1.jpg" alt="Img1">
+                </div>
+            <div class="col-xl-6 col-md-6 col-cm-12 text-center">
+                <img class="imgs" src="../assets/img/manicura2.jpg" alt="Img2">
+            </div>
+        </div>
     </main>
     <footer>
         <h3>Próximamente más...</h3>
         <a href="#arriba">Ir arriba</a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
